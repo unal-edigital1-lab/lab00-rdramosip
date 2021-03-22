@@ -1,0 +1,69 @@
+# Reading pref.tcl
+# do sum1bcc_primitive_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ruben/Documents/Laboratorios\ Digital\ I/lab00-rdramosip/Sumador {C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/sum1bcc_primitive.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:59:21 on Mar 22,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador" C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/sum1bcc_primitive.v 
+# -- Compiling module sum1bcc_primitive
+# 
+# Top level modules:
+# 	sum1bcc_primitive
+# End time: 07:59:22 on Mar 22,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim rtl_work.sum1bcc_primitive
+# vsim rtl_work.sum1bcc_primitive 
+# Start time: 08:11:50 on Mar 22,2021
+# Loading rtl_work.sum1bcc_primitive
+add wave -position insertpoint  \
+sim:/sum1bcc_primitive/A \
+sim:/sum1bcc_primitive/B \
+sim:/sum1bcc_primitive/Ci \
+sim:/sum1bcc_primitive/Cout \
+sim:/sum1bcc_primitive/S
+force -freeze sim:/sum1bcc_primitive/A 0 0
+force -freeze sim:/sum1bcc_primitive/B 0 0
+force -freeze sim:/sum1bcc_primitive/Ci 0 0
+run
+force -freeze sim:/sum1bcc_primitive/Ci 1 0
+force -freeze sim:/sum1bcc_primitive/B 0 0
+force -freeze sim:/sum1bcc_primitive/A 0 0
+run
+force -freeze sim:/sum1bcc_primitive/A 0 0
+force -freeze sim:/sum1bcc_primitive/B 1 0
+force -freeze sim:/sum1bcc_primitive/Ci 0 0
+restart
+run
+force -freeze sim:/sum1bcc_primitive/A 0 0
+force -freeze sim:/sum1bcc_primitive/B 1 0
+force -freeze sim:/sum1bcc_primitive/A 0 0
+force -freeze sim:/sum1bcc_primitive/B 1 0
+force -freeze sim:/sum1bcc_primitive/Ci 1 0
+run
+force -freeze sim:/sum1bcc_primitive/A 1 0
+force -freeze sim:/sum1bcc_primitive/A St1 0
+force -freeze sim:/sum1bcc_primitive/B 0 0
+force -freeze sim:/sum1bcc_primitive/Ci 0 0
+run
+force -freeze sim:/sum1bcc_primitive/A 1 0
+force -freeze sim:/sum1bcc_primitive/B 0 0
+force -freeze sim:/sum1bcc_primitive/Ci 1 0
+run
+force -freeze sim:/sum1bcc_primitive/A 1 0
+force -freeze sim:/sum1bcc_primitive/B 1 0
+force -freeze sim:/sum1bcc_primitive/Ci 0 0
+run
+force -freeze sim:/sum1bcc_primitive/A 1 0
+force -freeze sim:/sum1bcc_primitive/B 1 0
+force -freeze sim:/sum1bcc_primitive/Ci 1 0
+run

@@ -19,6 +19,9 @@ En este primer laboratorio se trabaja en la implementación de un full adder y s
 
 Se implemento el codigo para un sumador de 1 bit (full adder) de la siguiente manera:
 
+![sumador primitivo](https://user-images.githubusercontent.com/77936395/112007592-c6fb2a80-8af2-11eb-830f-499a8d8bef4a.png)
+
+
 
 
 

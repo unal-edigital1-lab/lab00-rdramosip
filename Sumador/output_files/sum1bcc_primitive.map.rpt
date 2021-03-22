@@ -1,5 +1,5 @@
 Analysis & Elaboration report for sum1bcc_primitive
-Mon Mar 22 07:48:32 2021
+Mon Mar 22 10:50:09 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                   ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status      ; Successful - Mon Mar 22 07:48:32 2021       ;
+; Analysis & Elaboration Status      ; Successful - Mon Mar 22 10:50:09 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; sum1bcc_primitive                           ;
 ; Top-level Entity Name              ; sum1bcc_primitive                           ;
@@ -161,7 +161,7 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Mar 22 07:47:35 2021
+    Info: Processing started: Mon Mar 22 10:49:24 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off sum1bcc_primitive -c sum1bcc_primitive --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -169,9 +169,9 @@ Info (12021): Found 1 design units, including 1 entities, in source file sum1bcc
     Info (12023): Found entity 1: sum1bcc_primitive File: C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/sum1bcc_primitive.v Line: 1
 Info (12127): Elaborating entity "sum1bcc_primitive" for the top level hierarchy
 Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4717 megabytes
-    Info: Processing ended: Mon Mar 22 07:48:33 2021
-    Info: Elapsed time: 00:00:58
+    Info: Peak virtual memory: 4704 megabytes
+    Info: Processing ended: Mon Mar 22 10:50:09 2021
+    Info: Elapsed time: 00:00:45
     Info: Total CPU time (on all processors): 00:01:07
 
 

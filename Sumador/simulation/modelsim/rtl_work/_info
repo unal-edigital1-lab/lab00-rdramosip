@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/simulation/modelsim
 vsum1bcc_primitive
-!s110 1616417961
+!s110 1616428234
 !i10b 1
 !s100 LDC4WW3zRWd2lno9m>jF_3
 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1616417961.000000
+!s108 1616428234.000000
 !s107 C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/sum1bcc_primitive.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador|C:/Users/ruben/Documents/Laboratorios Digital I/lab00-rdramosip/Sumador/sum1bcc_primitive.v|
 !i113 1

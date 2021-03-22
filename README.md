@@ -45,6 +45,7 @@ endmodule
 
 ```
 
+Se procedio a verificar las salidas posibles, para ello se hizo la simulación RTL y se cambio el valor de las entradas del sumador, hecho esto se obtuvo :
 
 ![sumador primitivo](https://user-images.githubusercontent.com/77936395/112007592-c6fb2a80-8af2-11eb-830f-499a8d8bef4a.png)
 

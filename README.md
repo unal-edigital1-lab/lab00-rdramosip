@@ -6,6 +6,13 @@ Estudiante:
 Ruben Dario Ramos Ipia
 
 # Introducción
+En este primer laboratorio se trabaja en la implementación de un full adder y su uso para un sumador de 4 bits, usando el framework quartus.
+
+# Objetivos
+* Conocer el framework de trabajo de la FPGA y Git Hub.
+
+* Iniciar en el lenguaje de verilog.
+
 
 
 

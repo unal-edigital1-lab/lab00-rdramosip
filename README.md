@@ -19,7 +19,7 @@ En este primer laboratorio se trabaja en la implementación de un full adder y s
 
 Se implemento el codigo para un sumador de 1 bit (full adder) de la siguiente manera:
 
-```
+```verilog
 module sum1bcc_primitive (A, B, Ci,Cout,S);
 
   input  A;

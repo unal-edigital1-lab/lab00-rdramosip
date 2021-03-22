@@ -19,7 +19,7 @@ En este primer laboratorio se trabaja en la implementación de un full adder y s
 
 Se implemento el codigo para un sumador de 1 bit (full adder) de la siguiente manera:
 
-![Simulación_Funcional](https://github.com/)
+![Simulación_Funcional](https://github.com/unal-edigital1-lab/lab00-rdramosip/blob/branch_name/sumador_primitivo.png)
 
 
 
